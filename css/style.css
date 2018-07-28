@@ -1,0 +1,192 @@
+*{
+    box-sizing: border-box
+}
+body{
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Page Header Begins*/
+.page-header{
+    background: #000000;
+    border-radius: 0px;
+}
+.container-fluid{
+    padding: 0px;
+}
+header{
+    margin:0px !important;
+    padding-left: 100px;
+}
+/* Page Banner Ends */
+
+/* Page Banner Begins*/
+.img-banner{
+    position: relative;
+    text-align: center
+}
+.img-banner-text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+.img-banner-text{
+    color: #f2f2f2;
+}
+.img-banner-text h3{
+    font-weight: bolder;
+    font-size: 5em;
+}
+.img-banner-text h3 span{
+    color: rgb(255, 199, 0);
+}
+
+.img-banner-text p{
+    font-size: 1.5em;
+}
+
+@media screen and (max-width: 900px) {
+    .img-banner-text h3{
+      font-size: 3.5em;
+    }
+    .img-banner-text p{
+        font-size: 1.5em;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .img-banner-text h3{
+      font-size: 2em;
+    }
+    .img-banner-text p{
+        font-size: 1em;
+    }
+  }
+
+  /* Page Banner Ends */
+
+/* vehicle registration holder begins */
+.vehicle-reg-holder{
+    padding: 2.5em;
+    background: rgb(255, 199, 0);
+    color: #f2f2f2;
+    font-size: 2em;
+}
+.vehicle-form-input{
+    padding: 0.9375em;
+    border: 0px;
+    color: #555;
+    width: 100%;
+}
+
+.vehicle-form-button{
+    padding: 0.9375em;
+    border: 0px;
+    background: #000000;
+    color: #fff;
+    width: 100%;
+}
+/* vehicle registration holder ends */
+
+/* page content begins */
+.page-content{
+    margin: 6.25em 3%;
+}
+.page-content-header{
+    margin-bottom: 5em;
+    text-align: center;
+}
+.page-content-header h1{
+    color: rgb(255, 199, 0);
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+.page-content-header h3{
+    color: #ccc;
+    font-size: 2em;
+}
+.content-container{
+    box-shadow: #f2f2f2 0px 0px 2.5em;
+    margin: auto 3%;
+    padding: 2.5em 0.625em;
+}
+.content-container h3{
+    font-weight: bolder;
+}
+.content-container p{
+    font-size: 1.3em;
+    color: #ccc;
+}
+.get-started{
+    margin: 4.375em;
+}
+.get-started-button{
+    width: 30%;
+    background: rgb(255, 199, 0);
+    padding: 0.9375em;
+    border: 0px;
+}
+/* page content ends */
+
+/* page content begins section */
+.section-content{
+    display: table;
+    width: 100%
+}
+.section-content-image{
+    display: table-cell;
+    background: #ccc;
+    padding: 0px !important;
+
+}
+.section-content-image object{
+    width: 100%;
+}
+.section-content-text{
+    display: table-cell;
+    padding: 12.8em 5em; 
+    background: rgb(255, 199, 0);
+    color: #f2f2f2;
+}
+.section-content-text h1{
+    font-size: 4em;
+    font-weight: bolder;
+}
+.section-content-text p{
+    font-size: 2em;
+}
+/* page content end section */
+
+/* footer holder begin */
+.footer-holder{
+    padding: 6.25em 6.25em;
+}
+
+.footer-holder h1{
+    font-weight: bolder;
+    color: rgb(255, 199, 0);
+    font-size: 4em;
+}
+.footer-holder p{
+    color: #ccc;
+    font-size: 2em;
+}
+.footer-form-input{
+    padding: 0.9375em;
+    border: 1px solid rgb(255, 199, 0);
+    font-size: 2em;
+    width: 100%;
+}
+
+.footer-form-button{
+    padding: 0.9375em;
+    border: 0px;
+    background: #000000;
+    color: #fff;
+    font-size: 2em;
+    width: 100%;
+}
+.footer-form{
+    margin-top: 6.25em;
+    margin-bottom: 6.25em;
+}
+/* footer holder ends */
